@@ -15,18 +15,17 @@ h3 {
 
 h1 {
   margin-bottom: 20px;
-  color: #4D5656
+  color: #4d5656;
 }
 
 header {
-  background-color: #FFE400;
+  background-color: #ffe400;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 20vh;
   padding-top: 10px;
-
 }
 
 /* FORM STYLE */
@@ -70,11 +69,10 @@ ul {
   margin: 0px auto;
   margin-top: 25vh;
   margin-bottom: 10.5vh;
-
 }
 
 li {
-  background-color: #FFE400;
+  background-color: #ffe400;
   list-style: none;
   width: 90%;
   border-radius: 4px;
@@ -94,11 +92,11 @@ span {
 }
 
 .red {
-  background-color: #FF652F;
+  background-color: #ff652f;
 }
 
 .green {
-  background-color: #14A76C;
+  background-color: #14a76c;
 }
 
 /* Delete Button */
@@ -106,29 +104,24 @@ span {
 .deleteBtn {
   position: relative;
   cursor: pointer;
-  color: #4D5656;
-
-
+  color: #4d5656;
 }
 
 /* Footer */
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #ffe400;
   position: fixed;
-  background-color: #FFE400;
-  padding-left: 10px;
   bottom: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 5;
 }
 
 footer p {
-  padding-right: 20px;
-  padding: auto;
-  color: rgb(34, 38, 38)6;
+  color: rgb(34, 38, 38) 6;
 }
 
 /* Media Queries */
@@ -146,7 +139,7 @@ footer p {
   }
 
   .form {
-    width: 80%
+    width: 80%;
   }
 
   footer {
@@ -166,8 +159,6 @@ footer p {
   }
 
   .form {
-    width: 75%
+    width: 75%;
   }
-
-
 }
